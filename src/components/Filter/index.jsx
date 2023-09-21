@@ -5,7 +5,7 @@ const Filter = ({ filter, onChange }) => {
     <ContainerFilterStyled>
       <label>Find contacts my name</label>
       <InputFilterStyled
-        name="title"
+        name="filter"
         type="text"
         value={filter}
         onChange={onChange}
